@@ -10,7 +10,7 @@ r"""
 
 VERSION = (0, 61, 0, "dev", 0)
 
-__title__ = "django-allauth"
+__title__ = "django-allauth-async-fix"
 __version_info__ = VERSION
 __version__ = ".".join(map(str, VERSION[:3])) + (
     "-{}{}".format(VERSION[3], VERSION[4] or "") if VERSION[3] != "final" else ""

@@ -55,6 +55,5 @@ def _remove_dangling_login(request, response, session_check):
 
 def _session_check(request):
     if not getattr(request, "_account_login_accessed", False):
-        print("session check")
         if "account_login" in request.session:
             request.session.pop("account_login")
